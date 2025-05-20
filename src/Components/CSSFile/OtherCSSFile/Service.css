@@ -1,0 +1,16 @@
+.ImgstyleBox {
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(30px);
+  border-radius: 5px;
+  /* transform: skewX(5deg); */
+}
+
+.Imgstyle {
+  background-color: transparent;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.ImgstyleBox img:hover {
+  transform: skewX(5deg) translateY(-2px);
+  transition: transform 0.5s ease;
+}
