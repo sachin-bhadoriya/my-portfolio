@@ -29,7 +29,7 @@ const Service = () => {
         <p className="fs-4">
           The skills, tools and technologies I use :
         </p>
-        <div className="d-flex gap-2 justify-content-center my-2">
+        <div className="d-flex skills-row gap-2 justify-content-center my-2">
           <div className="ImgstyleBox"><img className="p-2 m-2 Imgstyle" src={htmlIcon} width={70} /></div>
           <div className="ImgstyleBox"><img className="p-2 m-2 Imgstyle" src={css} width={70} /></div>
           <div className="ImgstyleBox"><img className="p-2 m-2 Imgstyle" src={bootstrap} width={70} /></div>
@@ -38,7 +38,7 @@ const Service = () => {
           <div className="ImgstyleBox"><img className="p-2 m-2 Imgstyle" src={nodejs} width={70} /></div>
           <div className="ImgstyleBox"><img className="p-2 m-2 Imgstyle" src={native} width={70} /></div>
         </div>
-        <div className="d-flex gap-2 justify-content-center my-2">
+        <div className="d-flex skills-row gap-2 justify-content-center my-2">
           <div className="ImgstyleBox"><img className="p-2 m-2 Imgstyle" src={photoshop} width={70} /></div>
           <div className="ImgstyleBox"><img className="p-2 m-2 Imgstyle" src={premierpro} width={70} /></div>
           <div className="ImgstyleBox"><img className="p-2 m-2 Imgstyle" src={illustrator} width={70} /></div>
