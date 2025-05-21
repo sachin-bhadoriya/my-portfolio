@@ -49,3 +49,9 @@
     background-color: #ecebeb;
     color: #8054be;
 }
+
+@media screen and (max-width: 767px) {
+  .main-links{
+    display: none;
+  }
+}
