@@ -1,6 +1,7 @@
 .testimonial-section {
   padding: 40px 20px;
   color: white;
+  overflow: hidden;
 }
 
 .swiper-pagination {
