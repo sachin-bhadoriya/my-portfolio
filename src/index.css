@@ -38,6 +38,7 @@
     background-color: #0d031c;
     color: white;
     font-family: "Figtree", sans-serif;
+    overflow: hidden;
 }
 
 ::selection{
