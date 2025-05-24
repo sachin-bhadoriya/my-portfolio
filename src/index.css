@@ -32,22 +32,6 @@
 
 
 
-body {
-  width: 1920px;   /* ya jitna desktop view hota hai */
-  margin: 0 auto;
-  overflow-x: auto; /* horizontal scroll agar chhota screen ho */
-}
-
-html, body {
-  zoom: 1;         /* Default zoom */
-}
-
-@media (max-width: 1920px) {
-  html, body {
-    zoom: calc(100vw / 1920);   /* Adjust scale for small screens */
-    transform-origin: top left; /* Keep origin from top-left */
-  }
-}
 
 
 
