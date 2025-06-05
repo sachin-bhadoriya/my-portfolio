@@ -1,0 +1,96 @@
+.videoAttachment {
+  width: 100%;
+  height: 95vh;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 50px;
+  box-shadow: inset 0px -80px 80px rgba(255, 255, 255, 1);
+  /* z-index: 9999; */
+}
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 110%;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.overlay-content {
+  position: relative;
+  z-index: 99;
+  color: white;
+  padding: 20vh;
+  background-color: transparent;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.design {
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(263deg, #279ff0 31%, #de68ff 84%);
+  background-clip: text;
+  font-family: Phosphate, Arial, sans-serif;
+}
+
+.top-main-big {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.top-small {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #a69fff;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 0.8rem;
+}
+
+.top-main {
+  font-size: 2.8rem;
+  line-height: 1.1;
+  font-weight: 500;
+  color: #ddd;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1199.98px) {
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 575.98px) {
+  .overlay-content {
+    padding: 10vh 4vw;
+  }
+
+  .top-main-big {
+    font-size: 1.9rem;
+    line-height: 1.15;
+  }
+  .top-main {
+    font-size: 1.3rem;
+    line-height: 1.2;
+  }
+  .top-small {
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+  }
+
+  .videoAttachment {
+    height: 60vh;
+  }
+  .video-container {
+  height: 120%;
+}
+}

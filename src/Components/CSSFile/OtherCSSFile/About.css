@@ -1,0 +1,38 @@
+/* head styles */
+.about_head {
+  font-weight: 900;
+  font-size: 3rem;
+}
+.about_head {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+.about_head::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #7c5ea5;
+  opacity: 1;
+  transform: ScaleX(0);
+  transform-origin: left;
+  transition: opacity 0.3s ease, transform 0.5s ease;
+}
+.about_head:hover::after {
+  transform: ScaleX(1);
+}
+
+/* other part css */
+.About .About_word{
+    color: #b28be8;
+    font-weight: 500;
+}
+.About{
+    font-weight: 300;
+}
+
+
+

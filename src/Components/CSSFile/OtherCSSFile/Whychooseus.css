@@ -1,0 +1,34 @@
+/* head styles */
+.Whyus_head {
+  font-weight: 900;
+  font-size: 3rem;
+}
+.Whyus_head {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+.Whyus_head::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #7c5ea5;
+  opacity: 1;
+  transform: ScaleX(0);
+  transform-origin: left;
+  transition: opacity 0.3s ease, transform 0.5s ease;
+}
+.Whyus_head:hover::after {
+  transform: ScaleX(1);
+}
+
+/* other part css */
+.Whyus .Whyus_word{
+    color: #b28be8;
+}
+.Whyus{
+    font-weight: 300;
+}

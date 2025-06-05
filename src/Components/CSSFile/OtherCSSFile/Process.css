@@ -1,0 +1,53 @@
+/* head styles */
+.why_head {
+  font-weight: 900;
+  font-size: 3rem;
+}
+.why_head {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+.why_head::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #7c5ea5;
+  opacity: 1;
+  transform: ScaleX(0);
+  transform-origin: left;
+  transition: opacity 0.3s ease, transform 0.5s ease;
+}
+.why_head:hover::after {
+  transform: ScaleX(1);
+}
+
+/* no.s and text styles */
+.why_content{
+    display: flex;
+}
+.why_content .why_content_no h1{
+  font-family: "Monoton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  margin-right: 20px;
+  color: rgb(39, 159, 240);
+  transition: transform 0.5s ease;
+}
+.why_content:hover .why_content_no h1{
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+.why_content_material {
+  line-height: 0.8;
+  margin: auto 0;
+  font-family: "Figtree", sans-serif;
+}
+.why_content_material h1 {
+  cursor: pointer;
+  font-weight: 700;
+}

@@ -1,0 +1,62 @@
+.laptop-view-nav{
+    background-color: transparent !important;
+    backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0;
+}
+.main-navbar{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    background-color: transparent !important;
+}
+.main-name, .main-links, .contact-btn{
+    padding: 15px;
+}
+.main-name ul{
+    list-style: none;
+    line-height: 0.89;
+    background-color: transparent !important;
+    margin-bottom: 0 !important;
+    padding-left: 0 !important;
+}
+.main-name ul li{
+    background-color: transparent !important;
+    font-family: "Montserrat", sans-serif !important;
+}
+.main-name ul li:nth-child(1){
+    font-size: 1.6rem;
+}
+.main-links ul{
+    background-color: transparent !important;
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin-bottom: 0 !important;
+    padding-left: 0 !important;
+}
+.main-links ul li{
+    background-color: transparent;
+    align-items: center;
+}
+.contact-btn button{
+    font-family: "Montserrat", sans-serif;
+    outline: none;
+    border: none;
+    background-color: #fafafa;
+    color: #522c86;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 5px;
+}
+.contact-btn button:hover{
+    background-color: #ecebeb;
+    color: #8054be;
+}
+
+@media screen and (max-width: 767px) {
+  .main-links{
+    display: none;
+  }
+}
