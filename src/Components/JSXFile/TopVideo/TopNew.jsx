@@ -17,16 +17,16 @@ const TopNew = () => {
 
         <div className="overlay-content">
           <div className="topVideoContent bg-transparent">
-            <p className="top-small bg-transparent design">
+            <p className="top-small figfamily bg-transparent design">
               From Code to Product
             </p>
-            <p className="top-main bg-transparent design">
+            <p className="top-main figfamily bg-transparent design">
               Hi!, I am <br />{" "}
-              <b className="top-main-big bg-transparent design fs-xxxlarge">
+              <b className="top-main-big bg-transparent design figtree">
                 SACHIN BHADORIYA
               </b>
             </p>
-            <p className="top-bottom bg-transparent design fw-bold">
+            <p className="top-bottom figfamily bg-transparent design">
               Your Go-To Expert for Frontend, Backend & App Development
             </p>
           </div>
