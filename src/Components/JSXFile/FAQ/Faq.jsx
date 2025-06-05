@@ -13,7 +13,6 @@ const Faq = () => {
             {/* first accordion */}
             <div
               style={{
-                width: "100vw",
                 padding: 0,
                 margin: 0,
                 backgroundColor: "transparent",
@@ -24,14 +23,14 @@ const Faq = () => {
                 className="accordion"
                 id="faqAccordion"
                 style={{
-                  width: "92%",
+                  width: " 100%",
                   backgroundColor: "transparent",
                 }}
               >
                 <div
                   className="accordion-item"
                   style={{
-                    width: "92%",
+                    width: " 100%",
                     backgroundColor: "transparent",
                     border: "none",
                     outline: "none",
@@ -46,7 +45,7 @@ const Faq = () => {
                       aria-expanded="true"
                       aria-controls="collapseOne"
                       style={{
-                        width: "92%",
+                        width: " 100%",
                         backgroundColor: "transparent",
                         color: "white",
                         border: "none",
@@ -63,14 +62,14 @@ const Faq = () => {
                     aria-labelledby="headingOne"
                     data-bs-parent="#faqAccordion"
                     style={{
-                      width: "92%",
+                      width: " 100%",
                       backgroundColor: "transparent",
                       color: "white",
                     }}
                   >
                     <div
                       className="accordion-body fst-italic fw-lighter"
-                      style={{ width: "92%", color: "white" }}
+                      style={{ width: " 100%", color: "white" }}
                     >
                       <p> I provide full-stack web development, mobile app development, UI/UX design, and end-to-end digital solutions using modern technologies like the MERN stack (MongoDB, Express, React, Node.js). </p>
                     </div>
@@ -80,7 +79,7 @@ const Faq = () => {
                 <div
                   className="accordion-item"
                   style={{
-                    width: "92%",
+                    width: " 100%",
                     backgroundColor: "transparent",
                     border: "none",
                     outline: "none",
@@ -95,7 +94,7 @@ const Faq = () => {
                       aria-expanded="true"
                       aria-controls="collapseTwo"
                       style={{
-                        width: "92%",
+                        width: " 100%",
                         backgroundColor: "transparent",
                         color: "white",
                         border: "none",
@@ -112,14 +111,14 @@ const Faq = () => {
                     aria-labelledby="headingOne"
                     data-bs-parent="#faqAccordion"
                     style={{
-                      width: "92%",
+                      width: " 100%",
                       backgroundColor: "transparent",
                       color: "white",
                     }}
                   >
                     <div
                       className="accordion-body fst-italic fw-lighter"
-                      style={{ width: "92%", color: "white" }}
+                      style={{ width: " 100%", color: "white" }}
                     >
                       <p> I specialize in the MERN stack for web development. That includes MongoDB for databases, Express and Node.js for backend development, and React for frontend interfaces. I also use tools like Figma for UI/UX design and Git for version control.</p>
                     </div>
@@ -129,7 +128,7 @@ const Faq = () => {
                 <div
                   className="accordion-item"
                   style={{
-                    width: "92%",
+                    width: " 100%",
                     backgroundColor: "transparent",
                     border: "none",
                     outline: "none",
@@ -144,7 +143,7 @@ const Faq = () => {
                       aria-expanded="true"
                       aria-controls="collapseThree"
                       style={{
-                        width: "92%",
+                        width: " 100%",
                         backgroundColor: "transparent",
                         color: "white",
                         border: "none",
@@ -161,14 +160,14 @@ const Faq = () => {
                     aria-labelledby="headingOne"
                     data-bs-parent="#faqAccordion"
                     style={{
-                      width: "92%",
+                      width: " 100%",
                       backgroundColor: "transparent",
                       color: "white",
                     }}
                   >
                     <div
                       className="accordion-body fst-italic fw-lighter"
-                      style={{ width: "92%", color: "white" }}
+                      style={{ width: " 100%", color: "white" }}
                     >
                      <p> Innovation and dedication. We stay updated with the latest trends and technologies, ensuring your project is built using modern, scalable, and efficient solutions — all delivered with a personal touch and transparent communication.</p>
                     </div>
@@ -178,7 +177,7 @@ const Faq = () => {
                 <div
                   className="accordion-item"
                   style={{
-                    width: "92%",
+                    width: " 100%",
                     backgroundColor: "transparent",
                     border: "none",
                     outline: "none",
@@ -193,7 +192,7 @@ const Faq = () => {
                       aria-expanded="true"
                       aria-controls="collapseFour"
                       style={{
-                        width: "92%",
+                        width: " 100%",
                         backgroundColor: "transparent",
                         color: "white",
                         border: "none",
@@ -210,14 +209,14 @@ const Faq = () => {
                     aria-labelledby="headingOne"
                     data-bs-parent="#faqAccordion"
                     style={{
-                      width: "92%",
+                      width: " 100%",
                       backgroundColor: "transparent",
                       color: "white",
                     }}
                   >
                     <div
                       className="accordion-body fst-italic fw-lighter"
-                      style={{ width: "92%", color: "white" }}
+                      style={{ width: " 100%", color: "white" }}
                     >
                      <p> We follow an 8-step process: Requirement Gathering → Sitemap & Wireframe → UI/UX Designing → Client Approval → Development → Testing & QA → Client Review & Final Change → Deployment.</p>
                     </div>
@@ -227,7 +226,7 @@ const Faq = () => {
                 <div
                   className="accordion-item"
                   style={{
-                    width: "92%",
+                    width: " 100%",
                     backgroundColor: "transparent",
                     border: "none",
                     outline: "none",
@@ -242,7 +241,7 @@ const Faq = () => {
                       aria-expanded="true"
                       aria-controls="collapseFive"
                       style={{
-                        width: "92%",
+                        width: " 100%",
                         backgroundColor: "transparent",
                         color: "white",
                         border: "none",
@@ -259,14 +258,14 @@ const Faq = () => {
                     aria-labelledby="headingOne"
                     data-bs-parent="#faqAccordion"
                     style={{
-                      width: "92%",
+                      width: " 100%",
                       backgroundColor: "transparent",
                       color: "white",
                     }}
                   >
                     <div
                       className="accordion-body fst-italic fw-lighter"
-                      style={{ width: "92%", color: "white" }}
+                      style={{ width: " 100%", color: "white" }}
                     >
                      <p> Yes, I offer post-launch support and maintenance to ensure your website or application runs smoothly, stays secure, and is always updated.</p>
                     </div>
@@ -276,7 +275,7 @@ const Faq = () => {
                 <div
                   className="accordion-item"
                   style={{
-                    width: "92%",
+                    width: " 100%",
                     backgroundColor: "transparent",
                     border: "none",
                     outline: "none",
@@ -291,7 +290,7 @@ const Faq = () => {
                       aria-expanded="true"
                       aria-controls="collapseSixth"
                       style={{
-                        width: "92%",
+                        width: " 100%",
                         backgroundColor: "transparent",
                         color: "white",
                         border: "none",
@@ -308,14 +307,14 @@ const Faq = () => {
                     aria-labelledby="headingOne"
                     data-bs-parent="#faqAccordion"
                     style={{
-                      width: "92%",
+                      width: " 100%",
                       backgroundColor: "transparent",
                       color: "white",
                     }}
                   >
                     <div
                       className="accordion-body fst-italic fw-lighter"
-                      style={{ width: "92%", color: "white" }}
+                      style={{ width: " 100%", color: "white" }}
                     >
                      <p> Absolutely! I can develop custom features tailored to your business needs, including third-party API integrations, admin panels, booking systems, and more.</p>
                     </div>
@@ -325,7 +324,7 @@ const Faq = () => {
                 <div
                   className="accordion-item"
                   style={{
-                    width: "92%",
+                    width: " 100%",
                     backgroundColor: "transparent",
                     border: "none",
                     outline: "none",
@@ -340,7 +339,7 @@ const Faq = () => {
                       aria-expanded="true"
                       aria-controls="collapseSeven"
                       style={{
-                        width: "92%",
+                        width: " 100%",
                         backgroundColor: "transparent",
                         color: "white",
                         border: "none",
@@ -357,14 +356,14 @@ const Faq = () => {
                     aria-labelledby="headingOne"
                     data-bs-parent="#faqAccordion"
                     style={{
-                      width: "92%",
+                      width: " 100%",
                       backgroundColor: "transparent",
                       color: "white",
                     }}
                   >
                     <div
                       className="accordion-body fst-italic fw-lighter"
-                      style={{ width: "92%", color: "white" }}
+                      style={{ width: " 100%", color: "white" }}
                     >
                      <p> Yes, I’ve worked with clients
                     globally and can easily manage projects across time zones with smooth communication and regular updates.</p>
@@ -375,7 +374,7 @@ const Faq = () => {
                 <div
                   className="accordion-item"
                   style={{
-                    width: "92%",
+                    width: " 100%",
                     backgroundColor: "transparent",
                     border: "none",
                     outline: "none",
@@ -390,7 +389,7 @@ const Faq = () => {
                       aria-expanded="true"
                       aria-controls="collapseEighth"
                       style={{
-                        width: "92%",
+                        width: " 100%",
                         backgroundColor: "transparent",
                         color: "white",
                         border: "none",
@@ -407,14 +406,14 @@ const Faq = () => {
                     aria-labelledby="headingOne"
                     data-bs-parent="#faqAccordion"
                     style={{
-                      width: "92%",
+                      width: " 100%",
                       backgroundColor: "transparent",
                       color: "white",
                     }}
                   >
                     <div
                       className="accordion-body fst-italic fw-lighter"
-                      style={{ width: "92%", color: "white" }}
+                      style={{ width: " 100%", color: "white" }}
                     >
                      <p> Just head to the Contact Me section or send me an email with your requirements. I’ll get back to you within 24 hours with a personalized proposal.</p>
                     </div>
