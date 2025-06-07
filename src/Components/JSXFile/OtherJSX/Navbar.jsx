@@ -15,9 +15,9 @@ const Navbar = () => {
           </div>
           <div className="main-links bg-transparent">
             <ul>
-              <li><Link className="bg-transparent text-white text-decoration-none">Home</Link></li>
-              <li><Link className="bg-transparent text-white text-decoration-none">Work</Link></li>
-              <li><Link className="bg-transparent text-white text-decoration-none">Why Us</Link></li>
+              <li><Link className="bg-transparent text-white text-decoration-none navLinks ">Home</Link></li>
+              <li><Link className="bg-transparent text-white text-decoration-none navLinks ">Work</Link></li>
+              <li><Link className="bg-transparent text-white text-decoration-none navLinks ">Why Us</Link></li>
             </ul>
           </div>
           <div className="contact-btn bg-transparent">

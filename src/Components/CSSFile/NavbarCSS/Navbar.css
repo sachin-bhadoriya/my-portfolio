@@ -43,16 +43,32 @@
 .contact-btn button{
     font-family: "Montserrat", sans-serif;
     outline: none;
-    border: none;
-    background-color: #fafafa;
-    color: #522c86;
-    font-weight: 500;
-    padding: 10px;
-    border-radius: 5px;
+    border: 1px solid white;
+    background-color: transparent;
+    /* color: #522c86; */
+    color: white;
+    font-weight: 600;
+    padding: 8px 15px;
+    border-radius: 50px;
+    transition: all 0.5s ease;
 }
 .contact-btn button:hover{
-    background-color: #ecebeb;
-    color: #8054be;
+    background-color: #ffffff;
+    /* color: #8054be; */
+    color: #522c86;
+    font-weight: 600;
+}
+.navLinks ::after{
+    content: "";
+    scale: 0;
+    width: 2px;
+    height: 100%;
+}
+
+.navLinks::after:hover{
+    /* color: #522c86 !important; */
+    /* border-bottom: 1px solid #ffffff; */
+    scale: 1;
 }
 
 @media screen and (max-width: 767px) {
